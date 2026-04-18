@@ -1,30 +1,30 @@
 class JiraCommands < Formula
   desc "Fast, cross-platform Jira terminal client built in Rust"
   homepage "https://github.com/mulhamna/jira-commands"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jira-macos-aarch64"
-      sha256 "2141151212b17a78b6b79c5889b24388fdb1713eb8377f65a1a177c469c13a87"
+      sha256 "f53ce7d6674eb2e26f6570ff249e0d5eeef1538f85b116f719d8090a6ab61cdd"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jira-macos-x86_64"
-      sha256 "299c339120d49667ee8c1b5ba9d19422787d63c4fb87b1ed7dd46449b5080ab9"
+      sha256 "a5c18651639e9454ab79007b7d364e9d3286e5bf37f34abd4912d18b15db5f35"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jira-linux-aarch64"
-      sha256 "e8dde0f03c3f9918d0ccfa04376749205ca944d723d423695290967719d15b82"
+      sha256 "ec54ee90d785e620545a26b5bd65b9849a5f368124a712d53c3b29a31b8e878d"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jira-linux-x86_64"
-      sha256 "724ab746b6f96e873893f3f1c40bf2af7539eb8048b7c7a4a30e353accb074a7"
+      sha256 "9d706116f01c1fb5b3bfb8696e55b1bd55d3857e34c500ea5e383c208a7c768e"
     end
   end
 
