@@ -1,7 +1,7 @@
 class JiraCommands < Formula
   desc "Terminal client for the Jira ecosystem — fast, cross-platform, built in Rust"
   homepage "https://github.com/mulhamna/jira-commands"
-  version "0.16.1"
+  version "0.16.2"
   license "MIT"
 
   # jirac is an independent CLI tool for the Jira ecosystem.
@@ -10,24 +10,24 @@ class JiraCommands < Formula
   on_macos do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-aarch64"
-      sha256 "db30abd4454fce5fe8091b7c331ba0c8b07fd51b294bbb0957905aa557602508"
+      sha256 "dc44b02a514024c83d594ab9db165588a304e5d16e79e0d10afc569bda83f297"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-x86_64"
-      sha256 "ee4d2b587b06756986e155ae51a013a62cb66c5149aa611a8a5cbc844a8633ed"
+      sha256 "18ee5bd9762b066a1b67bcaeba7b01161f2c940b881b07f60ec1cca2838bc82a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-linux-aarch64"
-      sha256 "6dbad5a5036bc4cce762f9b6d7473de8a5cc5679334e5835903455f80f6afc1f"
+      sha256 "ef0230904d77725f4f2e760016c427a519cebd6b4f60fa4fc3ff240b4aa0d0d1"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-linux-x86_64"
-      sha256 "11ae28ba69bc77f9e7592d91414979e60fc8ff811ea0e943af21fe421dad4286"
+      sha256 "b6562a4ede92ad6fa9e727ea7ee9c47ffd5aa437ae461331d15859119e95bdae"
     end
   end
 
