@@ -2,20 +2,20 @@ class JiraCommands < Formula
   desc "Terminal client for the Jira ecosystem — fast, cross-platform, built in Rust"
   homepage "https://github.com/mulhamna/jira-commands"
   version "0.18.0"
-  license "MIT"
+  license any_of: ["MIT", "Apache-2.0"]
 
   # jirac is an independent CLI tool for the Jira ecosystem.
   # It is not affiliated with or endorsed by Atlassian.
 
   on_macos do
     on_arm do
-      url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-aarch64"
-      sha256 "85787f95c43e4a84b959efd4929fc4c94d309f80812984444942502238742d63"
+      url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-aarch64.tar.gz"
+      sha256 "56627a038433b9ccb16281da66450ef6a3100b651114384480b351f9c398d81e"
     end
 
     on_intel do
-      url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-x86_64"
-      sha256 "db201247da8b2a891ddb0ea0172f54a799393f5170f5c9484cede14053a8fd2c"
+      url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-x86_64.tar.gz"
+      sha256 "62b65ef891b5bd1ad7ea36777c945b8def4553431bcae379473b1d6ec8bb0dba"
     end
   end
 
@@ -32,34 +32,16 @@ class JiraCommands < Formula
   end
 
   def install
-    binary = if OS.mac?
-      Hardware::CPU.arm? ? "jirac-macos-aarch64" : "jirac-macos-x86_64"
-    else
-      Hardware::CPU.arm? ? "jirac-linux-aarch64" : "jirac-linux-x86_64"
-    end
-    bin.install binary => "jirac"
-    # Legacy symlink — keeps 'jira' working for existing users.
-    # Will be removed in a future major release.
-    bin.install_symlink "jirac" => "jira"
+    bin.install "jirac"
   end
 
   def caveats
     <<~EOS
-      The binary has been renamed from 'jira' to 'jirac'.
-
-      The old 'jira' command still works as a symlink for backward
-      compatibility, but will be removed in a future major release.
-
-      Please update your scripts and aliases:
-        Before: jira issue list
-        After:  jirac issue list
-
-      jirac is an independent tool — not affiliated with Atlassian.
+      jirac is an independent tool and is not affiliated with Atlassian.
     EOS
   end
 
   test do
     assert_match version.to_s, shell_output("#{bin}/jirac --version")
-    assert_match version.to_s, shell_output("#{bin}/jira --version 2>&1")
   end
 end
