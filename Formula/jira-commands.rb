@@ -10,24 +10,24 @@ class JiraCommands < Formula
   on_macos do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-aarch64"
-      sha256 "0b2455955404e109485abeb89468b68570256884930c358473e1b820db3e53ea"
+      sha256 "2a409af13047d3e1af10bb1fa98ccb1f609ffe4b9e8c347fa242f9239c0a91cb"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-macos-x86_64"
-      sha256 "29287ff6d7d4787f4bff32fcb4ab8e42e2cefbe23d85467604da24f3e05933bc"
+      sha256 "d4eecbdc129242f196a7daa9b0aa75224176fad08da4fcf20be799690b199111"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-linux-aarch64"
-      sha256 "e5e91bd17e7d697ca5d9f46884fd8a0296d097b26b8cd1657402542be80ff76c"
+      sha256 "272bd3ea729afcd9f7e073d46128b2d52076bbbe379b350a285b87a7c0df22f5"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-linux-x86_64"
-      sha256 "f698a8b6bb8f3e8b12d95c85affc8bb04f7cd4816d202267cab89e72ec0e8671"
+      sha256 "e7f52a8708a2e4416ea3cd336d7c033da1c83d344edb0bd3dc941ebbbfdfba31"
     end
   end
 
