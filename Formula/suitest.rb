@@ -5,21 +5,21 @@
 class Suitest < Formula
   desc "AI-powered testing agent CLI — provider-agnostic"
   homepage "https://github.com/mulhamna/suitest"
-  version "1.0.3"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mulhamna/suitest/releases/download/v1.0.3/suitest_darwin_amd64.tar.gz"
-      sha256 "c291747597e9ac20b44a7a1666f8928dfbe60dbce1434eab68ebe2394e8a1fc2"
+      url "https://github.com/mulhamna/suitest/releases/download/v1.1.0/suitest_darwin_amd64.tar.gz"
+      sha256 "9866824de7df57670bcc28bc5d0d196e1e2070c47dae3dc525540977e9ff7f7a"
 
       define_method(:install) do
         bin.install "suitest"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mulhamna/suitest/releases/download/v1.0.3/suitest_darwin_arm64.tar.gz"
-      sha256 "16e21d71949b9fe889faaac3d07e6dabf64fab4b3d8807c23331c942372d5b98"
+      url "https://github.com/mulhamna/suitest/releases/download/v1.1.0/suitest_darwin_arm64.tar.gz"
+      sha256 "9b8bc5f21c26d9386913dd2a7fce7832ae9c0bdbc2f94ccb7133de3e0bd25146"
 
       define_method(:install) do
         bin.install "suitest"
@@ -29,15 +29,15 @@ class Suitest < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mulhamna/suitest/releases/download/v1.0.3/suitest_linux_amd64.tar.gz"
-      sha256 "bfb2a15aa9f4b9076264992d9469a9332e1661c854522813fd62a6038b6984da"
+      url "https://github.com/mulhamna/suitest/releases/download/v1.1.0/suitest_linux_amd64.tar.gz"
+      sha256 "0e53958083f13250e686e78e8091b85cb7b8188f40dc38eae6a99662cfdec37d"
       define_method(:install) do
         bin.install "suitest"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mulhamna/suitest/releases/download/v1.0.3/suitest_linux_arm64.tar.gz"
-      sha256 "d87a570a44b358aac1e7f89589b7c8d51d86862b12495303a8cec862506e0027"
+      url "https://github.com/mulhamna/suitest/releases/download/v1.1.0/suitest_linux_arm64.tar.gz"
+      sha256 "f1323887157125ac5fac6f575f641dd03b2d286c7835ccbd5e0700f4d464daa0"
       define_method(:install) do
         bin.install "suitest"
       end
