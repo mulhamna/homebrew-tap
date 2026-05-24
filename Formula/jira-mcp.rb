@@ -10,24 +10,24 @@ class JiraMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-mcp-macos-aarch64.tar.gz"
-      sha256 "65bb6b0f88fce44a3c82ac9451cd1dcc086383e111e47e7787da555042d71ccd"
+      sha256 "a9b60de23b37a354bbdf9d0ac544709fa1ba481701fb74ac92db83f169b37a7e"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-mcp-macos-x86_64.tar.gz"
-      sha256 "86907245dc53b054f26266b85ed168211b9314933239e53bafbc46eb8bbdbdcc"
+      sha256 "08beedb45694c7a31c0d960f6e96b3ffc1ddc729eb1f58208b1765d0182f9eaf"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-mcp-linux-aarch64.tar.gz"
-      sha256 "e0f56c640898a90e660995696ab38fc1b4c7ac5bfa56f5585d9e077f48b0b8c9"
+      sha256 "f3b410f41fa24582e7d56f3b46fd5b624ae973d1bae549b48defe3b1a391d3bc"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/v#{version}/jirac-mcp-linux-x86_64.tar.gz"
-      sha256 "3eb47c140a42b449b92052c39c5618783fcfc968fd1557fd4a674c242bde2758"
+      sha256 "8953dc67b5c8016216085cf8ee3a237f506cd05027160f3534acd5ccf14f1c4f"
     end
   end
 
