@@ -1,8 +1,8 @@
 class Pkgmap < Formula
   desc "One command to see everything installed on your machine — across all package managers"
   homepage "https://github.com/mulhamna/pkgmap"
-  url "https://registry.npmjs.org/@mulham28/pkgmap/-/pkgmap-1.11.1.tgz"
-  sha256 "934f7e9d668586c154ad246e9018faa820823b17cdd27cda99ab054988d4e005"
+  url "https://registry.npmjs.org/@mulham28/pkgmap/-/pkgmap-1.12.0.tgz"
+  sha256 "5973c5c310dda5f800f73062573ecac11bcf848f16617bcdacacd5f4ddef8be2"
   license "MIT"
 
   depends_on "node"
