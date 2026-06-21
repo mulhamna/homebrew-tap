@@ -14,6 +14,7 @@ brew install mulhamna/tap/jira-commands
 brew install mulhamna/tap/jira-mcp
 brew install mulhamna/tap/pkgmap
 brew install mulhamna/tap/suitest
+brew install mulhamna/tap/addx
 ```
 
 Install cask:
