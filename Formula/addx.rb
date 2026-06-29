@@ -1,27 +1,27 @@
 class Addx < Formula
   desc "Universal AI tooling manager with a mouse-clickable TUI"
   homepage "https://github.com/mulhamna/addx"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mulhamna/addx/releases/download/v0.2.0/addx-darwin-arm64"
-      sha256 "84648fc71a2e5dfccbbff72042a443087c752ebb4eeac401419d57bd5f701e7d"
+      url "https://github.com/mulhamna/addx/releases/download/v0.3.0/addx-darwin-arm64"
+      sha256 "748fdd1ba786858c4bf0de58cf3d7b0b86da93ed27d5455be0fcee3e8312b544"
     end
     on_intel do
-      url "https://github.com/mulhamna/addx/releases/download/v0.2.0/addx-darwin-x64"
-      sha256 "525689756bd1b5c0d1bb16821e9d4e1db31322f711a04cad75db39115e66e45d"
+      url "https://github.com/mulhamna/addx/releases/download/v0.3.0/addx-darwin-x64"
+      sha256 "8557cee5f2e2421ffcab1e3bb4b1d2ef181cef4e73873601d9773562548fe2f1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mulhamna/addx/releases/download/v0.2.0/addx-linux-arm64"
-      sha256 "3457d5285a5d7b9c6b39e4de7284c45092dca7aff4b4b31785983dc8a1c12a33"
+      url "https://github.com/mulhamna/addx/releases/download/v0.3.0/addx-linux-arm64"
+      sha256 "ca07633ec088de01ed4888f9cddcd939817b1f5175346d9426c9cb4d0bdf72a0"
     end
     on_intel do
-      url "https://github.com/mulhamna/addx/releases/download/v0.2.0/addx-linux-x64"
-      sha256 "84b6e547efbf39114089c5ca6322985b485c428c93b4681d07002aa3c3436263"
+      url "https://github.com/mulhamna/addx/releases/download/v0.3.0/addx-linux-x64"
+      sha256 "c024840ed9e882e476efb08cc690fe8391bff8882ab39f0696a6269ceda53caa"
     end
   end
 
