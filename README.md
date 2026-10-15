@@ -9,6 +9,7 @@ Homebrew formulae and casks for Mulhamna's tools.
 | [jira-commands](https://github.com/mulhamna/jira-commands) | Formula | Cross-platform Jira CLI; installs the `jirac` command | `brew install mulhamna/tap/jira-commands` |
 | [jira-mcp](https://github.com/mulhamna/jira-commands) | Formula | Typed Jira MCP server; installs the `jirac-mcp` command | `brew install mulhamna/tap/jira-mcp` |
 | [clickupc](https://github.com/mulhamna/clickup-commands) | Formula | Unofficial ClickUp CLI and MCP server | `brew install mulhamna/tap/clickupc` |
+| [trelloc](https://github.com/mulhamna/trello-commands) | Formula | Unofficial Trello CLI and MCP server | `brew install mulhamna/tap/trelloc` |
 | [pkgmap](https://github.com/mulhamna/pkgmap) | Formula | Lists installed packages across package managers | `brew install mulhamna/tap/pkgmap` |
 | [broask](https://github.com/mulhamna/broask) | Formula | Plays a sound when CLI tools ask for confirmation | `brew install mulhamna/tap/broask` |
 | [addx](https://github.com/mulhamna/addx) | Formula | Universal AI tooling manager with a mouse-clickable TUI | `brew install mulhamna/tap/addx` |
@@ -28,6 +29,7 @@ Install formulae by name:
 brew install jira-commands
 brew install jira-mcp
 brew install clickupc
+brew install trelloc
 brew install pkgmap
 brew install broask
 brew install addx
