@@ -1,28 +1,28 @@
 class Clickupc < Formula
   desc "Unofficial ClickUp CLI and MCP server"
   homepage "https://github.com/mulhamna/clickup-commands"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.2.0/clickupc-macos-aarch64.tar.gz"
-      sha256 "09ade0c2d3f3c9b798277d7def6f0db6817cf06754e8ef07719ffc2a9135ec54"
+      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.3.0/clickupc-macos-aarch64.tar.gz"
+      sha256 "be40ad718cc44a93d2cfe2c23da342b166e616b7c327815719dd6ef6ebe29f9a"
     end
     on_intel do
-      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.2.0/clickupc-macos-x86_64.tar.gz"
-      sha256 "974dcfe2b17ed76f68a93d36dacb816948cc0575a6d599a46b4b8d56f2ff258f"
+      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.3.0/clickupc-macos-x86_64.tar.gz"
+      sha256 "27c2e754334de43cd0f838fd5d3be57af4a3e736b9a062427fb87dcf1a2d59e2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.2.0/clickupc-linux-aarch64.tar.gz"
-      sha256 "f93f8dfd48b3527e00d3a6addf1a27fa6b9b25e835364af0fa74076f41c97a57"
+      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.3.0/clickupc-linux-aarch64.tar.gz"
+      sha256 "ef2c5b4c207a02b553d6842c7a21e177eac37997dafb811a1e61deefa2890995"
     end
     on_intel do
-      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.2.0/clickupc-linux-x86_64.tar.gz"
-      sha256 "8fbf07c25dff822e9b75de22a24dfddd30b2ca262ea59cbedcd77f6b2fd283af"
+      url "https://github.com/mulhamna/clickup-commands/releases/download/v1.3.0/clickupc-linux-x86_64.tar.gz"
+      sha256 "f234fca9e0349b44ba53ec60af64e4f16d71e0bc2aee45f81bc96e48da2c3b37"
     end
   end
 
