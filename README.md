@@ -12,6 +12,7 @@ Homebrew formulae and casks for Mulhamna's tools.
 | [pkgmap](https://github.com/mulhamna/pkgmap) | Formula | Lists installed packages across package managers | `brew install mulhamna/tap/pkgmap` |
 | [broask](https://github.com/mulhamna/broask) | Formula | Plays a sound when CLI tools ask for confirmation | `brew install mulhamna/tap/broask` |
 | [addx](https://github.com/mulhamna/addx) | Formula | Universal AI tooling manager with a mouse-clickable TUI | `brew install mulhamna/tap/addx` |
+| [trelloc](https://github.com/mulhamna/trello-commands) | Formula | Unofficial Trello CLI and MCP server | `brew install mulhamna/tap/trelloc` |
 | [portbar](https://github.com/mulhamna/portbar) | Cask | macOS menu bar app that shows active listening ports | `brew install --cask mulhamna/tap/portbar` |
 
 ## Install
@@ -31,6 +32,7 @@ brew install clickupc
 brew install pkgmap
 brew install broask
 brew install addx
+brew install trelloc
 ```
 
 Install the PortBar app:
