@@ -1,28 +1,28 @@
 class Trelloc < Formula
   desc "Unofficial Trello CLI and MCP server"
   homepage "https://github.com/mulhamna/trello-commands"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.0/trelloc-macos-aarch64.tar.gz"
-      sha256 "803924ed2983ee1486fab762c8faf1c64f55f679980ae3b29e421dce61ce5f06"
+      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.1/trelloc-macos-aarch64.tar.gz"
+      sha256 "f7dc81b96d90dada963caab48d9f74846326b88b5ad043366e359a2bd25da543"
     end
     on_intel do
-      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.0/trelloc-macos-x86_64.tar.gz"
-      sha256 "095f10e9f0f33e12683c2c071849f8fd3c686fd2df4be7eb114c1dd016cf4ca6"
+      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.1/trelloc-macos-x86_64.tar.gz"
+      sha256 "709d7b1c420d8ee667cec8e6c90d2a019a96c77cbab8e696bef3af657b1b16ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.0/trelloc-linux-aarch64.tar.gz"
-      sha256 "de1a4612bfa0177acc27fbc334289fa6502485089a93d587071295a7076e58e5"
+      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.1/trelloc-linux-aarch64.tar.gz"
+      sha256 "101c0425a70dfbff6409114ce45161b281b06a1548ced7d8552b43b2c4726faa"
     end
     on_intel do
-      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.0/trelloc-linux-x86_64.tar.gz"
-      sha256 "e93721ae1d31ee3e16d4d221db4101a622a7cec954054ca0fd45177931228db2"
+      url "https://github.com/mulhamna/trello-commands/releases/download/v1.0.1/trelloc-linux-x86_64.tar.gz"
+      sha256 "bb163964136a0b4bf1c7051cb58a800cfa5ad9ed33ee8057052164b93efef0b6"
     end
   end
 
