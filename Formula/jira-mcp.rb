@@ -1,7 +1,7 @@
 class JiraMcp < Formula
   desc "Model Context Protocol server for Jira — typed tools for editors and AI agents"
   homepage "https://github.com/mulhamna/jira-commands"
-  version "2.6.0"
+  version "3.0.0"
   license "MIT"
 
   # jirac-mcp is an independent MCP server for the Jira ecosystem.
@@ -10,24 +10,24 @@ class JiraMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/jira-mcp-v#{version}/jirac-mcp-macos-aarch64.tar.gz"
-      sha256 "f6e5dc1dcb7d15a353dcae0e96ddb12874ce5bb3ce5ba4f2c7baf5dadecaf4e1"
+      sha256 "f0d67d45ec2ca73bee56d523874177946b6ec696c846d4195170b5b4167d531f"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/jira-mcp-v#{version}/jirac-mcp-macos-x86_64.tar.gz"
-      sha256 "fb7daa2cc3acf25a0d7e6c1438fa3f3d21fbea77d5bb354f50752f6c003b8d00"
+      sha256 "fc4e53c7d456bcaf70b471380f6ff7fe22fb962f99e8769c338d8b32571ff005"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mulhamna/jira-commands/releases/download/jira-mcp-v#{version}/jirac-mcp-linux-aarch64.tar.gz"
-      sha256 "8e3e02ab79e408ee3069e40440c74a61ea67e072e63af2022a6d8c4ee9885b6f"
+      sha256 "00c6049be06b49d2f58abb80a078982e5595a24ce513ae23bbe69bdda2ccdd78"
     end
 
     on_intel do
       url "https://github.com/mulhamna/jira-commands/releases/download/jira-mcp-v#{version}/jirac-mcp-linux-x86_64.tar.gz"
-      sha256 "3663db869615a635d52da57516a720985df6eb86b5aa1dd6cbf3e1b6e3aa835a"
+      sha256 "dc35d97ad6bddc1590a3342f9fc3b0c63680705fa87aa679ba2d0f76eabd5a12"
     end
   end
 
